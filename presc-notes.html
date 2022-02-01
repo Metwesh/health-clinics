@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="../Project/images/stetho32x32-removebg-preview.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../Project/dist/style.css">
+  <title>HealthClinics | View patients</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+
+    <header class="header">
+        <div class="overlay has-fade"></div>
+    
+        <nav class="container container--pall flex flex-jc-sb flex-a2i-c">  
+          <a href="/" class="header__logo">
+            <img src="../Project/images/logo1.svg" alt="HealthClinics">
+          </a>
+    
+            <a id="btnHamburger" href="#" class="header__toggle hide-for-desktop">
+              <span></span>
+              <span></span>
+              <span></span> 
+          </a>
+    
+          
+          <div class="header__linkssi hide-for-mobile">
+            <a href="../Project/landing.html">Home</a>
+            <a href="#">Blog</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+          </div>
+
+          <a href="#" class="button header__cta hide-for-mobile">Log out</a>
+        </nav>
+
+        <div class="header__menu has-fade">
+          <a href="#">Home</a>
+          <a href="#">Blog</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+          <a href="../Project/landing.html">Log out</a>
+        </div>
+      </header>
+
+        <section class="hero">
+          <div class="container">
+            <div class="hero__imagedash"></div>
+
+          <body>
+            <div>
+            <form>
+                <table class="tablepropa">
+                    <tr><th class="cellpropa" colspan="2">Input case notes & prescriptions
+                    </th><td></td></tr>
+                    <tr><td class="cellpropb">
+                        <div class="group">      
+                            <input type="text" required>
+                            <span class="highlight"></span>
+                            <span class="bar"></span>
+                            <label>Patient name</label>
+                          </div>
+                    </td><td></td></tr>
+                    <tr><td class="cellpropb">
+                        <div class="group">      
+                            <input type="text" required>
+                            <span class="highlight"></span>
+                            <span class="bar"></span>
+                            <label>Case notes</label>
+                          </div>
+                    </td><td></td></tr>
+                    <tr><td class="cellpropb">
+                        <div class="group">      
+                            <input type="text" required>
+                            <span class="highlight"></span>
+                            <span class="bar"></span>
+                            <label>Prescriptions</label>
+                          </div>
+                    </td><td></td></tr>
+                    <tr><th class="cellpropa"></th><th class="cellpropa"><input type="submit" class="button"></th></tr>
+                    </table>
+            </form>
+              
+
+        </div>
+      </body>
+      </html>

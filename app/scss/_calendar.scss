@@ -1,0 +1,66 @@
+.bodycal {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+  }
+  
+    #calendarContainer,
+    #organizerContainer {
+        float: left;
+        margin: 5px;
+        line-height: 1;
+        background-color: remove;        
+    
+    }
+.overlaycal {
+    position: relative;
+    z-index: 1;
+    margin-top: -35rem;
+}
+
+.buttoncal {
+    position: absolute;
+    top: 82%;
+    right: 2.5%;
+    padding: 0.5rem 1.575rem;
+    background-image: linear-gradient(to right, $limeGreen, $brightCyan);
+    border: 0;
+    border-radius: 50px;
+    cursor: pointer;
+    color: $white;
+    font-weight: 400;
+    font-size: $font-sm;
+
+    transition: opacity 300ms ease-in-out;
+    &:hover{
+
+        
+            opacity: 0.66;
+     
+        }
+}
+input:focus ~ label, input:valid ~ label.calendarContainer {
+    top: 0;
+    left: 0;
+    pointer-events: auto;
+}
+
+//<label class="calendarContainer cjslib-day cjslib-day-diluted" for="calendarContainer-day-radio-1" id="calendarContainer-day-1"><span class="cjslib-day-num" id="calendarContainer-day-num-1">31</span><span class="cjslib-day-indicator cjslib-indicator-pos-bottom cjslib-indicator-type-numeric" id="calendarContainer-day-indicator-1"></span></label>
+ 
+
+

@@ -1,0 +1,89 @@
+.dashboardwindow {
+    position: absolute;
+    width: 700px;
+    height: 500px;
+    background-color: $veryLightGray;
+    box-shadow: 0px 0px 30px 30px $darkBlue;
+//    padding-top: 40px;
+    top: 23%;
+    left: 27%;
+    bottom: 60px;
+    
+}
+.dashboardwindowg {
+    position: absolute;
+    width: 700px;
+    height: 500px;
+    border: 0px;
+    border-radius: 20px;
+    background-color: $veryLightGray;
+//    box-shadow: 0px 0px 10px 30px $veryLightGray;
+//    padding-top: 40px;
+    left: 27%;
+    bottom: 60px;
+    
+    
+}
+.tableprop {
+    width: 100%;
+    height: 100%;
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 10px;
+    text-align: center;
+    
+}
+
+.tablepropv {
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    color: $darkBlue;
+    background-color: $white;
+        box-shadow: 0px 0px 4px 5px $darkBlue;
+    
+}
+
+.tablepropa {
+    position: absolute;
+    top: 25%;
+    left: 27%;
+    color: $darkBlue;
+    background-color: $white;
+        box-shadow: 0px 0px 4px 5px $darkBlue;
+    
+}
+
+.clickable {
+    width: 100%;
+    height: 100%;
+    vertical-align: center;
+}
+
+.cellpropv{
+    padding: 10px;
+    border-style: solid;
+    border-spacing: 10px;
+    border-color: $darkBlue;
+}
+.cellpropg{
+    padding: 15px;
+    border-style: solid;
+    border-spacing: 10px;
+    border-color: $darkBlue;
+    font-size: $font-lrg;
+    font-weight: 400;
+}
+
+.cellpropa{
+    padding: 25px;
+    font-size: $font-lrg;
+    font-weight: 400;
+}
+
+.cellpropb{
+    padding: 10px;
+    font-size: $font-lrg;
+    font-weight: 400;
+}
+

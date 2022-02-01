@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="../Project/images/stetho32x32-removebg-preview.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../Project/dist/style.css">
+  <title>HealthClinics | SignUp/SignIn</title>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  
+      <script>
+      $(document).ready(function(){
+          $("button").click(function(){
+
+          });      
+      });
+</script>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+
+    <header class="header">
+        <div class="overlay has-fade"></div>
+    
+        <nav class="container container--pall flex flex-jc-sb flex-a2i-c">  
+          <a href="/" class="header__logo">
+            <img src="../Project/images/logo1.svg" alt="HealthClinics">
+          </a>
+    
+            <a id="btnHamburger" href="#" class="header__toggle hide-for-desktop">
+              <span></span>
+              <span></span>
+              <span></span> 
+          </a>
+    
+          
+          <div class="header__linkssi hide-for-mobile">
+            <a href="../Project/landing.html">Home</a>
+            <a href="#">Blog</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+          </div>
+
+          <a href="#" class="button header__cta2 hide-for-mobile" style="visibility:hidden">Sign in</a>
+        </nav>
+
+        <div class="header__menu has-fade">
+          <a href="#">Home</a>
+          <a href="#">Blog</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+          <a href="../Project/sign-up_sign-in.html">Sign up / Sign in</a>
+        </div>
+      </header>
+
+        <section class="hero">
+          <div class="container">
+            <div class="hero__imagesi"></div>
+          
+          <body>
+            <div class="container2">
+              <div class="backbox">
+                <div class="loginMsg">
+                  <div class="textcontent">
+                    <p class="title">Don't have an account?</p>
+                    <p>Sign up to reap the benefits.</p>
+                    <button id="switch1">Sign Up</button>
+                  </div>
+                </div>
+                <div class="signupMsg visibility">
+                  <div class="textcontent">
+                    <p class="title">Already have an account?</p>
+                    <p>Sign in to start scheduling.</p>
+                    <button id="switch2">Sign in</button>
+                  </div>
+                </div>
+              </div>
+          
+              <div class="frontbox">
+                <div class="login">
+                  <h2 class="loginprompt">Sign in</h2>
+                  <div class="inputbox">
+                    <input type="text" id="email" placeholder="E-mail">
+                    <input type="password" name="password" placeholder="Password">
+                  </div>
+                  <p>Forgot your password?</p>
+                  <form action="../Project/dashboard.html">
+                  <button type="submit">Sign in</button>
+                </form>
+                </div>
+          
+                <div class="signup hide">
+                  <h2 class="signupprompt">Sign up</h2>
+                  <div class="inputbox">
+                    <input type="text" name="fullname" placeholder="Full name">
+                    <input type="text" name="email" placeholder="E-mail">
+                    <input type="password" name="password" placeholder="Password">
+                  </div>
+                  <form action="../Project/dashboard.html">
+                  <button type="submit">Sign up</button>
+                </form>
+                </div>
+          
+              </div>
+            </div>
+            </div>
+
+            
+          </body>
+          
+          <script src="../Project/app/js/script2.js"></script>
+
+          </html>

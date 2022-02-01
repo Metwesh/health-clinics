@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="../Project/images/stetho32x32-removebg-preview.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.rawgit.com/nizarmah/calendar-javascript-lib/master/calendarorganizer.min.css">  
+    <link rel="stylesheet" href="../Project/dist/style.css">
+    <title>HealthClinics | Calendar</title>
+
+  <script src="https://cdn.rawgit.com/nizarmah/calendar-javascript-lib/master/calendarorganizer.min.js">
+
+  </script>
+ 
+
+
+
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+
+<body>
+
+  <header class="header">
+
+    <nav class="container container--pall flex flex-jc-sb flex-ai-c">  
+      <a href="/" class="header__logo">
+        <img src="../Project/images/logo1.svg" alt="HealthClinics">
+      </a>
+
+        <a id="btnHamburger" href="#" class="header__toggle hide-for-desktop">
+          <span></span>
+          <span></span>
+          <span></span> 
+      </a>
+
+      
+      <div class="header__links hide-for-mobile">
+        <a href="../Project/landing.html">Home</a>
+        <a href="#">Blog</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </div>
+
+      <a href="#" class="button header__cta hide-for-mobile">Log out</a>
+    </nav>
+
+    <div class="header__menu has-fade">
+      <a href="#">Home</a>
+      <a href="#">Blog</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+      <a href="#">Log out</a>
+    </div>
+  </header>
+  <section class="calendar">
+    <div class="container">
+      <div class="hero__imagecal"></div>
+    </div>
+    
+<div class="bodycal">
+  <div class="overlaycal">
+  <div id="calendarContainer"></div>
+  <div id="organizerContainer"></div>
+  <a href ="#" class="buttoncal">Add appointment</a>
+
+</div>
+</div>
+
+</body>
+
+
+<script src="../Project/app/js/script4.js"></script>
+
+</html>
