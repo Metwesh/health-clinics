@@ -1058,7 +1058,7 @@ button:hover, .button:hover {
 .hero__image {
   z-index: 1;
   position: relative;
-  background-image: url("/images/bg-intro-desktop.svg");
+  background-image: url("../images/bg-intro-desktop.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -1083,7 +1083,7 @@ button:hover, .button:hover {
   position: absolute;
   width: 165%;
   height: 110%;
-  background-image: url("/images/bg-intro-desktop.svg");
+  background-image: url("../images/bg-intro-desktop.svg");
   background-size: 93%;
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -1094,7 +1094,7 @@ button:hover, .button:hover {
   position: absolute;
   width: 115%;
   height: 115%;
-  background-image: url("/images/stethoscope-png-11553977395dpzfh3mxcp-removebg-preview.svg");
+  background-image: url("../images/stethoscope-png-11553977395dpzfh3mxcp-removebg-preview.svg");
   background-size: 93%;
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -1108,7 +1108,7 @@ button:hover, .button:hover {
 
 .hero__imagesi {
   position: relative;
-  background-image: url("/images/bg-intro-mobile.svg");
+  background-image: url("../images/bg-intro-mobile.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -1133,7 +1133,7 @@ button:hover, .button:hover {
   position: absolute;
   width: 165%;
   height: 180%;
-  background-image: url("/images/bg-intro-desktop.svg");
+  background-image: url("../images/bg-intro-desktop.svg");
   background-size: 75%;
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -1144,7 +1144,7 @@ button:hover, .button:hover {
   position: absolute;
   width: 103%;
   height: 110%;
-  background-image: url("/images/stethoscope-png-11553977395dpzfh3mxcp-removebg-preview.svg");
+  background-image: url("../images/stethoscope-png-11553977395dpzfh3mxcp-removebg-preview.svg");
   background-size: 70%;
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -1157,7 +1157,7 @@ button:hover, .button:hover {
 }
 
 .hero__imagecal {
-  background-image: url("/images/bg-intro-mobile.svg");
+  background-image: url("../images/bg-intro-mobile.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -1182,7 +1182,7 @@ button:hover, .button:hover {
   position: absolute;
   width: 220%;
   height: 200%;
-  background-image: url("/images/bg-intro-desktop.svg");
+  background-image: url("../images/bg-intro-desktop.svg");
   background-size: 75%;
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -1193,7 +1193,7 @@ button:hover, .button:hover {
   position: absolute;
   width: 83%;
   height: 100%;
-  background-image: url("/images/stethoscope-png-11553977395dpzfh3mxcp-removebg-preview.svg");
+  background-image: url("../images/stethoscope-png-11553977395dpzfh3mxcp-removebg-preview.svg");
   background-size: 70%;
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -1206,7 +1206,7 @@ button:hover, .button:hover {
 }
 
 .hero__imagedash {
-  background-image: url("/images/bg-intro-mobile.svg");
+  background-image: url("../images/bg-intro-mobile.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -1232,7 +1232,7 @@ button:hover, .button:hover {
   left: -420px;
   width: 197%;
   height: 150%;
-  background-image: url("/images/bg-intro-desktop.svg");
+  background-image: url("../images/bg-intro-desktop.svg");
   background-size: 75%;
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -1245,7 +1245,7 @@ button:hover, .button:hover {
   right: 40%;
   width: 80%;
   height: 77%;
-  background-image: url("/images/stethoscope-png-11553977395dpzfh3mxcp-removebg-preview.svg");
+  background-image: url("../images/stethoscope-png-11553977395dpzfh3mxcp-removebg-preview.svg");
   background-size: 70%;
   background-repeat: no-repeat;
   background-position: center bottom;
