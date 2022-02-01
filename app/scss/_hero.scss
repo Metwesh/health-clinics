@@ -1,250 +1,207 @@
-.hero{
-    background-color: $veryLightGray;
-    
-    .container {
-        @include breakpoint-up(large){
-        display: flex;
-        align-items: center;
-        }
+.hero {
+  background-color: $veryLightGray;
+
+  .container {
+    @include breakpoint-up(large) {
+      display: flex;
+      align-items: center;
     }
-    
+  }
 
+  &__image {
+    z-index: 1;
+    position: relative;
+    background-image: url("../images/bg-intro-desktop.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 17.5rem;
 
-    &__image {
-        z-index: 1;
-        position: relative;
-        background-image: url('/images/bg-intro-desktop.svg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        min-height: 17.5rem; 
-
-
-
-
-        @include breakpoint-up(large){
-            flex: 3;
-            order: 2;
-            height: 35rem;
-            background-image: none;
-        }
-
-
-
-        &::before {
-            content: "";
-            position: absolute;
-            width: 165%;
-            height: 110%;
-            background-image: url('/images/bg-intro-desktop.svg');
-            background-size: 93%;
-            background-repeat: no-repeat;
-            background-position: center bottom;
-        }
-
-        &::after {
-            content: "";
-            position: absolute;
-            width: 115%;
-            height: 115%;
-            background-image: url('/images/stethoscope-png-11553977395dpzfh3mxcp-removebg-preview.svg');
-            background-size: 93%;
-            background-repeat: no-repeat;
-            background-position: center bottom;
-
-
-
-        }
-        @include breakpoint-down(medium){
-            background-image: none;
-        }
-
-    }
-//signin/signup image helper class
-    &__imagesi {
-        //z-index: 1;
-        position: relative;
-        background-image: url('/images/bg-intro-mobile.svg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        min-height: 17.5rem; 
-
-
-
-
-        @include breakpoint-up(large){
-            flex: 3;
-            order: 2;
-            height: 35rem;
-            background-image: none;
-        }
-
-
-
-        &::before {
-            content: "";
-            position: absolute;
-            width: 165%;
-            height: 180%;
-            background-image: url('/images/bg-intro-desktop.svg');
-            background-size: 75%;
-            background-repeat: no-repeat;
-            background-position: center bottom;
-        }
-
-        &::after {
-            content: "";
-            position: absolute;
-            width: 103%;
-            height: 110%;
-            background-image: url('/images/stethoscope-png-11553977395dpzfh3mxcp-removebg-preview.svg');
-            background-size: 70%;
-            background-repeat: no-repeat;
-            background-position: center bottom;
-
-
-
-        }
-        @include breakpoint-down(medium){
-            background-image: none;
-        }
-
+    @include breakpoint-up(large) {
+      flex: 3;
+      order: 2;
+      height: 35rem;
+      background-image: none;
     }
 
-
-
-    //calendar image helper class
-    &__imagecal {
-        //z-index: 4;
-        //position: relative;
-        background-image: url('/images/bg-intro-mobile.svg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        min-height: 17.5rem; 
-
-
-
-
-        @include breakpoint-up(large){
-            flex: 3;
-            order: 2;
-            height: 35rem;
-            background-image: none;
-        }
-
-
-
-        &::before {
-            content: "";
-            position: absolute;
-            width: 220%;
-            height: 200%;
-            background-image: url('/images/bg-intro-desktop.svg');
-            background-size: 75%;
-            background-repeat: no-repeat;
-            background-position: center bottom;
-        }
-
-        &::after {
-            content: "";
-            position: absolute;
-            width: 83%;
-            height: 100%;
-            background-image: url('/images/stethoscope-png-11553977395dpzfh3mxcp-removebg-preview.svg');
-            background-size: 70%;
-            background-repeat: no-repeat;
-            background-position: center bottom;
-
-
-
-        }
-        @include breakpoint-down(medium){
-            background-image: none;
-        }
-
+    &::before {
+      content: "";
+      position: absolute;
+      width: 165%;
+      height: 110%;
+      background-image: url("../images/bg-intro-desktop.svg");
+      background-size: 93%;
+      background-repeat: no-repeat;
+      background-position: center bottom;
     }
 
-    &__imagedash {
-        //z-index: 4;
-        //position: relative;
-        background-image: url('/images/bg-intro-mobile.svg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        min-height: 17.5rem; 
+    &::after {
+      content: "";
+      position: absolute;
+      width: 115%;
+      height: 115%;
+      background-image: url("../images/stethoscope-png-11553977395dpzfh3mxcp-removebg-preview.svg");
+      background-size: 93%;
+      background-repeat: no-repeat;
+      background-position: center bottom;
+    }
+    @include breakpoint-down(medium) {
+      background-image: none;
+    }
+  }
+  //signin/signup image helper class
+  &__imagesi {
+    //z-index: 1;
+    position: relative;
+    background-image: url("../images/bg-intro-mobile.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 17.5rem;
 
-
-
-
-        @include breakpoint-up(large){
-            flex: 3;
-            order: 2;
-            height: 35rem;
-            background-image: none;
-        }
-
-
-
-        &::before {
-            content: "";
-            position: absolute;
-            left: -420px;
-            width: 197%;
-            height: 150%;
-            background-image: url('/images/bg-intro-desktop.svg');
-            background-size: 75%;
-            background-repeat: no-repeat;
-            background-position: center bottom;
-            background-color: $veryLightGray;
-        }
-
-        &::after {
-            content: "";
-            position: absolute;
-            right: 40%;
-            width: 80%;
-            height: 77%;
-            background-image: url('/images/stethoscope-png-11553977395dpzfh3mxcp-removebg-preview.svg');
-            background-size: 70%;
-            background-repeat: no-repeat;
-            background-position: center bottom;
-
-
-
-        }
-        @include breakpoint-down(medium){
-            background-image: none;
-        }
-
+    @include breakpoint-up(large) {
+      flex: 3;
+      order: 2;
+      height: 35rem;
+      background-image: none;
     }
 
-    
-
-    &__text {
-        text-align: center;
-        @include breakpoint-up(large){
-            flex: 2;
-            order: 1;
-            text-align: left;
-
-        }
-        h1 {
-            font-weight: 300;
-            font-size: 2.31rem;
-            line-height: 1.15;
-            color: $darkBlue;
-            margin-bottom: 1.5rem;
-
-            @include breakpoint-up(large){
-                font-size: $font-xlg;
-            }
-        }
-
-        p {
-            line-height: 1.5;
-            margin-bottom: 2.25rem;
-        }
+    &::before {
+      content: "";
+      position: absolute;
+      width: 165%;
+      height: 180%;
+      background-image: url("../images/bg-intro-desktop.svg");
+      background-size: 75%;
+      background-repeat: no-repeat;
+      background-position: center bottom;
     }
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 103%;
+      height: 110%;
+      background-image: url("../images/stethoscope-png-11553977395dpzfh3mxcp-removebg-preview.svg");
+      background-size: 70%;
+      background-repeat: no-repeat;
+      background-position: center bottom;
+    }
+    @include breakpoint-down(medium) {
+      background-image: none;
+    }
+  }
+
+  //calendar image helper class
+  &__imagecal {
+    //z-index: 4;
+    //position: relative;
+    background-image: url("../images/bg-intro-mobile.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 17.5rem;
+
+    @include breakpoint-up(large) {
+      flex: 3;
+      order: 2;
+      height: 35rem;
+      background-image: none;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 220%;
+      height: 200%;
+      background-image: url("../images/bg-intro-desktop.svg");
+      background-size: 75%;
+      background-repeat: no-repeat;
+      background-position: center bottom;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 83%;
+      height: 100%;
+      background-image: url("../images/stethoscope-png-11553977395dpzfh3mxcp-removebg-preview.svg");
+      background-size: 70%;
+      background-repeat: no-repeat;
+      background-position: center bottom;
+    }
+    @include breakpoint-down(medium) {
+      background-image: none;
+    }
+  }
+
+  &__imagedash {
+    //z-index: 4;
+    //position: relative;
+    background-image: url("../images/bg-intro-mobile.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 17.5rem;
+
+    @include breakpoint-up(large) {
+      flex: 3;
+      order: 2;
+      height: 35rem;
+      background-image: none;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: -420px;
+      width: 197%;
+      height: 150%;
+      background-image: url("../images/bg-intro-desktop.svg");
+      background-size: 75%;
+      background-repeat: no-repeat;
+      background-position: center bottom;
+      background-color: $veryLightGray;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      right: 40%;
+      width: 80%;
+      height: 77%;
+      background-image: url("../images/stethoscope-png-11553977395dpzfh3mxcp-removebg-preview.svg");
+      background-size: 70%;
+      background-repeat: no-repeat;
+      background-position: center bottom;
+    }
+    @include breakpoint-down(medium) {
+      background-image: none;
+    }
+  }
+
+  &__text {
+    text-align: center;
+    @include breakpoint-up(large) {
+      flex: 2;
+      order: 1;
+      text-align: left;
+    }
+    h1 {
+      font-weight: 300;
+      font-size: 2.31rem;
+      line-height: 1.15;
+      color: $darkBlue;
+      margin-bottom: 1.5rem;
+
+      @include breakpoint-up(large) {
+        font-size: $font-xlg;
+      }
+    }
+
+    p {
+      line-height: 1.5;
+      margin-bottom: 2.25rem;
+    }
+  }
 }
